@@ -1,0 +1,46 @@
+﻿Сборка начата 27.11.2024 10:43:22.
+Уровень детализации журнала: Normal.     1>Проект "D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\Лабораторная 8.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\Лабораторная 8.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Лабораторная 8.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt BackpackPacking.cpp "Лабораторная 8.cpp"
+         BackpackPacking.cpp
+         Лабораторная 8.cpp
+     1>D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:         with
+D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:         [
+D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:             _Ty=int
+D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:         ]
+     1>D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(30,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\Лабораторная 8.cpp(106,23): warning C4244: +=: преобразование "const double" в "int", возможна потеря данных
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\x64\Debug\Лабораторная 8.exe" /INCREMENTAL /ILK:"x64\Debug\Лабораторная 8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\x64\Debug\Лабораторная 8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\x64\Debug\Лабораторная 8.lib" /MACHINE:X64 x64\Debug\BackpackPacking.obj
+         "x64\Debug\Лабораторная 8.obj"
+         Лабораторная 8.vcxproj -> D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\x64\Debug\Лабораторная 8.exe
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: X:\Лабораторные\2 курс\АИСД\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp.
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Лабораторная 8.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Лабораторная 8.tlog\Лабораторная 8.lastbuildstate".
+     1>Сборка проекта "D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\Лабораторная 8.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\Лабораторная 8.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+       D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:         with
+       D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:         [
+       D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:             _Ty=int
+       D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(15,62): warning C4244:         ]
+         D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\BackpackPacking.cpp(30,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\БГТУ\АИСД3сем\laba8\laba8\Лабораторная 8\Лабораторная 8\Лабораторная 8.cpp(106,23): warning C4244: +=: преобразование "const double" в "int", возможна потеря данных
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:02.46
